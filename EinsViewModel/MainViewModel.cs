@@ -23,7 +23,7 @@ namespace EinsViewModel
         public MainViewModel()
         {
             
-                Wuerfelspiel =   new Spiel();
+                Wuerfelspiel =    new Spiel();
                 Wuerfelspiel.LoadSpieler();
                 BtnWuerfeln = new UserCommand(Wuerfeln);
                 BtnEnd = new UserCommand(SpielEnde);
